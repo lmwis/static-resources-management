@@ -1,0 +1,17 @@
+server:
+  port: 8801
+spring:
+  profiles:
+    active: enc
+  servlet:
+    multipart:
+      max-file-size: 20MB
+static-resources-management:
+  hostIp: 47.92.196.104
+  username: root
+#spring:
+#  datasource:
+#    url: enc
+#    username: enc
+#    password: enc
+#    type: enc
