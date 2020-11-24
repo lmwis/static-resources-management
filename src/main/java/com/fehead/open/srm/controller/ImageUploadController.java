@@ -18,7 +18,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * @Description:
+ * @Description: 文件上传控制器
  * @Author: lmwis
  * @Date 2020-01-20 17:01
  * @Version 1.0
@@ -64,7 +64,7 @@ public class ImageUploadController extends BaseController {
      * @param file
      * @return 文件名
      */
-    private String saveFile2Host(MultipartFile file) {
+    protected String saveFile2Host(MultipartFile file) {
         // 文件名
         String fileName = stringIdGenerator.generatorId();
         // 原来文件后缀
